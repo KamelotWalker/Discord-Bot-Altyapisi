@@ -46,7 +46,7 @@ class EventsHandler {
                             this.client.on(eventModule.event, (...args) => eventModule.run(this.client, ...args));
                         }
 
-                        info(`Loaded new event: ` + file);
+                        info("Loaded new event: " + file);
 
                         total++;
                     } else {
