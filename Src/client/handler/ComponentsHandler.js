@@ -65,7 +65,7 @@ class ComponentsHandler {
 
                         this.client.collection.components.autocomplete.set(module.commandName, module);
 
-                        info(`Loaded new component (type: autocomplete) : ` + file);
+                        info("Loaded new component (type: autocomplete) : " + file);
                     } else {
                         error('Invalid component type ' + module.__type__ + ' from component file ' + file);
                     }
